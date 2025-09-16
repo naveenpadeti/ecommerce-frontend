@@ -3,7 +3,7 @@ import { useCart } from "../context/CartContext";
 import { useNavigate } from "react-router-dom";
 import "./style.css";
 
-const BASE_URL = 'http://localhost:9090/back1';
+const BASE_URL = '44.211.224.216:8083/back1';
 
 const Cart = () => {
   const { cartItems, removeFromCart } = useCart();
